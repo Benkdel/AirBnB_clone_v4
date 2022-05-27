@@ -188,13 +188,14 @@ Second part of Airbnb: Joann Vuong
 
 fourth part of AirBnB Clone Project:
 
-<p align="center">
+<p align="left">
 Carlos Bentin -
 <a href="https://github.com/Benkdel">
         <img src="https://img.shields.io/badge/Carlos-mainPage-blue">
+</a>
 </p>
 
-<p align="center">
+<p align="left">
 Humberto Tejada - 
 <a href="https://github.com/humtej1204">
         <img src="https://img.shields.io/badge/Haru-mainPage-blue">
