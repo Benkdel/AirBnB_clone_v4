@@ -1,6 +1,41 @@
 #!/usr/bin/node
 
 $(document).ready(() => {
+
+    // callback function for search place
+    function serveHTML(place) {
+        var guests = 'Guest';
+        var rooms = 'Room';
+        var baths = 'Bathroom';
+        if (place.max_guest > 1) {
+            guests = 'Guests'
+        }
+        if (place.number_rooms > 1) {
+            rooms = 'Rooms'
+        }
+        if (place.number_bathrooms > 1) {
+            baths = 'Bathrooms'
+        }
+        var html = `
+                <article>
+                    <div class="title_box">
+                        <h2> ${place.name} </h2>
+                        <div class="price_by_night">$ ${place.price_by_night}</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest"> ${place.max_guest} ${guests}</div>
+                        <div class="number_rooms">${place.number_rooms} ${rooms}</div>
+                        <div class="number_bathrooms">${place.number_bathrooms} ${baths}</div>
+                    </div>
+                    <div class="description">
+                        ${place.description}
+                    </div>
+                </article>
+                `
+        return html;
+    }
+
+
     let amenities = {};
     $("input[type='checkbox']").change(function () {
         if (this.checked) {
@@ -37,36 +72,7 @@ $(document).ready(() => {
         success: function (data) {
             let $places = $('.places');
             for (let i = 0; i < data.length; i++) {
-                let place = data[i];
-                var guests = 'Guest';
-                var rooms = 'Room';
-                var baths = 'Bathroom';
-                if (place.max_guest > 1) {
-                    guests = 'Guests'
-                }
-                if (place.number_rooms > 1) {
-                    rooms = 'Rooms'
-                }
-                if (place.number_bathrooms > 1) {
-                    baths = 'Bathrooms'
-                }
-                var html = `
-                <article>
-                    <div class="title_box">
-                        <h2> ${place.name} </h2>
-                        <div class="price_by_night">$ ${place.price_by_night}</div>
-                    </div>
-                    <div class="information">
-                        <div class="max_guest"> ${place.max_guest} ${guests}</div>
-                        <div class="number_rooms">${place.number_rooms} ${rooms}</div>
-                        <div class="number_bathrooms">${place.number_bathrooms} ${baths}</div>
-                    </div>
-                    <div class="description">
-                        ${place.description}
-                    </div>
-                </article>
-                `
-                $places.append(html);
+                $places.append(serveHTML(data[i]));
             }
         }
     });
