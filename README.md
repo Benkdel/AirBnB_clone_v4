@@ -8,14 +8,14 @@
 </h2>
 
 <p align="center">
-    <a href="https://github.com/Benkdel/simple_shell/commits/main">
+    <a href="https://github.com/Benkdel/AirBnB_clone_v4/commits/main">
         <img src="https://img.shields.io/github/last-commit/benkdel/AirBnB_clone_v4.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub last commit">
     </a>
-    <a href="https://github.com/Benkdel/simple_shell/issues">
+    <a href="https://github.com/Benkdel/AirBnB_clone_v4/issues">
     <img src="https://img.shields.io/github/issues-raw/benkdel/AirBnB_clone_v4.svg?style=flat-square&logo=github&logoColor=white"
          alt="GitHub issues">
     </a>
-    <a href="https://github.com/Benkdel/simple/shell/pulls">
+    <a href="https://github.com/Benkdel/AirBnB_clone_v4/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/benkdel/AirBnB_clone_v4.svg?style=flat-square&logo=github&logoColor=white"
          alt="GitHub pull requests">
     </a>
