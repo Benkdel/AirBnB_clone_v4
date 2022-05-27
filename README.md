@@ -1,5 +1,30 @@
+<h1 align="center" >
+<br>
+    <img src="https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg" height="50%" width="40%">
+</h1>
+
+<h2 align="center">
+    Console, MySQL, front-end, flask (framework), API and Web Dynamic 
+</h2>
+
+<p align="center">
+    <a href="https://github.com/Benkdel/simple_shell/commits/main">
+        <img src="https://img.shields.io/github/last-commit/benkdel/AirBnB_clone_v4.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub last commit">
+    </a>
+    <a href="https://github.com/Benkdel/simple_shell/issues">
+    <img src="https://img.shields.io/github/issues-raw/benkdel/AirBnB_clone_v4.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub issues">
+    </a>
+    <a href="https://github.com/Benkdel/simple/shell/pulls">
+    <img src="https://img.shields.io/github/issues-pr-raw/benkdel/AirBnB_clone_v4.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub pull requests">
+    </a>
+</p>
+
 # AirBnB Clone - The Console
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+
+In this repo we are already in the fourth part of the AirBnB proyect. The main objective of this stage is to learn to implement web dynamics
 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
@@ -160,5 +185,21 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 Second part of Airbnb: Joann Vuong
+
+fourth part of AirBnB Clone Project:
+
+<p align="center">
+Carlos Bentin -
+<a href="https://github.com/Benkdel">
+        <img src="https://img.shields.io/badge/Carlos-mainPage-blue">
+</p>
+
+<p align="center">
+Humberto Tejada - 
+<a href="https://github.com/humtej1204">
+        <img src="https://img.shields.io/badge/Haru-mainPage-blue">
+</a>
+</p>
+
 ## License
 Public Domain. No copy write protection. 
