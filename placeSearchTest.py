@@ -9,17 +9,19 @@ if __name__ == "__main__":
     """
     r = requests.get("http://127.0.0.1:5001/api/v1/amenities")
     r_j = r.json()
-    
+
     amenity_id = None
     for amenity_j in r_j:
         if amenity_j.get('name') == "Internet":
             amenity_id = amenity_j.get('id')
             break
-    
+
     # Only Wifi
-    
+
     """ POST /api/v1/places_search
     """
-    r = requests.post("http://127.0.0.1:5001/api/v1/places_search", data=json.dumps({ 'amenities': [amenity_id] }), headers={ 'Content-Type': "application/json" })
+    r = requests.post("http://127.0.0.1:5001/api/v1/places_search",
+                      data=json.dumps({'amenities': [amenity_id]}),
+                      headers={'Content-Type': "application/json"})
     r_j = r.json()
     print(len(r_j))
