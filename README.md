@@ -179,23 +179,24 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
-Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+> First part of AirBnB Clone Project:
+* Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
+* Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
+* Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
+* David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
-Second part of Airbnb: Joann Vuong
+> Second part of Airbnb Clone Project:
+* Joann Vuong
 
-fourth part of AirBnB Clone Project:
-
-<p align="left">
+> Fourth part of AirBnB Clone Project:
+* <p align="left">
 Carlos Bentin -
 <a href="https://github.com/Benkdel">
         <img src="https://img.shields.io/badge/Carlos-mainPage-blue">
 </a>
 </p>
 
-<p align="left">
+* <p align="left">
 Humberto Tejada - 
 <a href="https://github.com/humtej1204">
         <img src="https://img.shields.io/badge/Haru-mainPage-blue">
