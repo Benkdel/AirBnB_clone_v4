@@ -35,8 +35,10 @@ $(document).ready(() => {
         return html;
     }
 
+    let states = {};
+    let cities = {};
     let amenities = {};
-    let jsonAmenities = '{}'
+    let jsonPostData = '{}';
     $("input[type='checkbox']").change(function () {
         $('.places article').remove();
         if (this.checked) {
@@ -47,10 +49,10 @@ $(document).ready(() => {
         let list = Object.values(amenities);
         if (list.length > 0) {
             $('DIV.amenities h4').text(Object.values(amenities).join(', '));
-            jsonAmenities = JSON.stringify({ 'amenities': Object.keys(amenities) });
+            jsonPostData = JSON.stringify({ 'amenities': Object.keys(amenities) });
         } else {
             $('DIV.amenities h4').html('&nbsp;');
-            jsonAmenities = '{}';
+            jsonPostData = '{}';
         }
 
         // filter
@@ -58,7 +60,7 @@ $(document).ready(() => {
         $.ajax({
             type: 'post',
             url: url2,
-            data: jsonAmenities,
+            data: jsonPostData,
             dataType: 'json',
             contentType: "application/json; charset=utf-8",
             success: function (data) {
