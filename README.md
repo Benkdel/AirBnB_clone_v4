@@ -189,19 +189,22 @@ No known bugs at this time.
 * Joann Vuong
 
 > Fourth part of AirBnB Clone Project:
-* <p align="left">
+<ul>
+<li><p align="left">
 Carlos Bentin -
 <a href="https://github.com/Benkdel">
         <img src="https://img.shields.io/badge/Carlos-mainPage-blue">
 </a>
 </p>
-
-* <p align="left">
+</li>
+<li>
+<p align="left">
 Humberto Tejada - 
 <a href="https://github.com/humtej1204">
         <img src="https://img.shields.io/badge/Haru-mainPage-blue">
 </a>
 </p>
-
+</li>
+</ul>
 ## License
 Public Domain. No copy write protection. 
